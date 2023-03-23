@@ -1,0 +1,13 @@
+.form_products {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form_products td {
+    width: 145px;
+}
+
+.form_products tr {
+    background-color: #fff;
+}
