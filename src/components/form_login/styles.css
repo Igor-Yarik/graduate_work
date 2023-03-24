@@ -58,4 +58,12 @@
     padding-bottom: 13px;
     background-color: #44B26F;
     border: none;
+    transition: all 0.5s;
+}
+
+.form_login_btn:hover {
+    color: #44B26F;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px 2px #44B26F, inset 0 0 10px 7px #44B26F;
+    transition: all 0.5s;
 }

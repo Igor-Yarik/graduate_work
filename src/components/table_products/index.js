@@ -1,10 +1,10 @@
 import React from "react";
 import './styles.css'
 
-const FormProducts = () => {
+const TableProducts = () => {
     return (
         <div className="form_products">
-            <table>
+            <table className="form_products_items">
                 
                     <td>
                         <th>ID</th>
@@ -38,9 +38,9 @@ const FormProducts = () => {
                     </td>
                     <td>
                         <th>Status</th>
-                        <tr>Del</tr>
-                        <tr>Del</tr>
-                        <tr>Del</tr>
+                    <tr><button>Edit</button><button>Del</button></tr>
+                    <tr><button>Edit</button><button>Del</button></tr>
+                    <tr><button>Edit</button><button>Del</button></tr>
                     </td>
                 
             </table>
@@ -49,4 +49,4 @@ const FormProducts = () => {
     )
 }
 
-export default FormProducts;
+export default TableProducts;

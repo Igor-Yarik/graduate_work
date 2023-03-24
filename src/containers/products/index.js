@@ -1,7 +1,7 @@
 import React from "react";
 import './styles.css'
 import logo from '../../images/logo.svg'
-import FormProducts from "../../components/form_products";
+import TableProducts from "../../components/table_products";
 
 const Products = () => {
     return (
@@ -12,7 +12,7 @@ const Products = () => {
                 <button className="products_btn">Add product</button>
             </div>
             <h1 className="products_title">Products</h1>
-            <FormProducts />
+            <TableProducts />
         </div>
         
     )
