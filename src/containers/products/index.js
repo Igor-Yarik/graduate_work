@@ -13,7 +13,8 @@ const Products = () => {
             </div>
             <h1 className="products_title">Products</h1>
             <TableProducts />
-        </div>        
+        </div>
+        
     )
 }
 

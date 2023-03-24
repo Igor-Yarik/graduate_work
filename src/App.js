@@ -5,14 +5,13 @@ import ProductsPrev from './containers/products_prev';
 import ProductCard from './containers/product_card';
 
 function App() {
-  return (
+  return (    
+
     <div className="app">
-      <Login />
-      <Products />
-      <ProductsPrev />
-      <ProductCard />
-
-
+        <Login />
+        <Products />
+        <ProductsPrev />
+        <ProductCard />
     </div>
   );
 }
